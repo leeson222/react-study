@@ -6,10 +6,15 @@ import "./Main.css";
 // 3. 모든 태그는 닫혀 있어야 한다
 // 4. 최상위 태그는 반드시 하나여야만 한다
 
+// State
+// isLightON 현재 스테이트의 점등 상태
+// isBroken 현재 스테이트의 고장 유무
+// isDirty 현재 스테이트의 더러움 유무
+
 const Main = () => {
 
     const user = {
-        name: "Yushi",
+        name: "리쿠 사랑해",
         isLogin: true,
     };
 
